@@ -1,3 +1,11 @@
+'use client';
+
+import NavigationBar from './Navigation/NavigationBar/page';
+
 export const Header = () => {
-  return <div>Header</div>;
+  return (
+    <div>
+      <NavigationBar />
+    </div>
+  );
 };
